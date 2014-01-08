@@ -37,5 +37,5 @@ RSpec.configure do |config|
   config.order = "random"
 
   #For RSpec testing using 'visit'
-  config.include Capybara::DSL, :type => :request
+  #config.include Capybara::DSL, :type => :request
 end
