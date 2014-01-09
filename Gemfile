@@ -8,6 +8,7 @@ gem 'pg'
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'guard-rspec'
 end
 
 
@@ -26,7 +27,10 @@ end
 gem 'jquery-rails'
 
 group :test do
+  gem 'rspec-rails'
   gem 'capybara', '1.1.2'
+  gem 'rb-fsevent', :require => false
+  gem 'growl'
 end
 
 
