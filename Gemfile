@@ -27,10 +27,11 @@ end
 gem 'jquery-rails'
 
 group :test do
-  gem 'rspec-rails'
   gem 'capybara', '1.1.2'
   gem 'rb-fsevent', :require => false
   gem 'growl'
+  gem 'guard-spork'
+  gem 'spork'
 end
 
 
