@@ -55,7 +55,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $gray-light;
+  color: $lightGray;
 }
 
 p {
@@ -87,11 +87,11 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid $grayMediumLight;
-  color: $gray-light;
+  color: $lightGray
   a {
     color: gray;
     &:hover {
-      color: $gray-darker;
+      color: $darkerGray;
     }
   }
 
