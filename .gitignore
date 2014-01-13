@@ -16,3 +16,5 @@
 
 # Ignore PSQL database
 /config/database.yml
+
+/.idea/workspace.xml
