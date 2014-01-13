@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a24966c-fd0b-457a-a854-5351910776bf" name="Default" comment="" />
+    <list default="true" id="5a24966c-fd0b-457a-a854-5351910776bf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/tasks.xml" />
     <ignored path=".DS_Store" />
@@ -32,16 +36,8 @@
       <file leaf-file-name="user_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="58" selection-start="2979" selection-end="2979" vertical-scroll-proportion="0.0" vertical-offset="1176" max-vertical-offset="1770">
-              <folding>
-                <marker date="1389631660000" expanded="true" signature="581:613" placeholder="{ ... }" />
-                <marker date="1389631660000" expanded="true" signature="619:664" placeholder="{ ... }" />
-                <marker date="1389631660000" expanded="true" signature="670:706" placeholder="{ ... }" />
-                <marker date="1389631660000" expanded="true" signature="1113:1405" placeholder="do ... end" />
-                <marker date="1389631660000" expanded="true" signature="2030:2053" placeholder="{ ... }" />
-                <marker date="1389631660000" expanded="true" signature="2318:2341" placeholder="{ ... }" />
-                <marker date="1389631660000" expanded="true" signature="2553:2994" placeholder="do ... end" />
-              </folding>
+            <state line="82" column="16" selection-start="2167" selection-end="2167" vertical-scroll-proportion="0.0" vertical-offset="764" max-vertical-offset="1935">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,19 +51,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="49" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+            <state line="25" column="0" selection-start="818" selection-end="818" vertical-scroll-proportion="0.48955613" vertical-offset="0" max-vertical-offset="766">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20140113161208_add_index_to_users_email.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="20140113161208_add_index_to_users_email.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20140113161208_add_index_to_users_email.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.097911224" vertical-offset="0" max-vertical-offset="766">
+            <state line="5" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
@@ -76,7 +72,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+            <state line="28" column="0" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -125,10 +121,10 @@
         <option value="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140113161208_add_index_to_users_email.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
     </option>
   </component>
@@ -673,11 +669,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="3" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="705" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.node-version">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105" />
@@ -809,13 +800,6 @@
         <state line="13" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/static_pages_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="766">
@@ -893,35 +877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140113162247_add_password_digest_to_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="474">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="58" selection-start="2979" selection-end="2979" vertical-scroll-proportion="0.0" vertical-offset="1176" max-vertical-offset="1770">
-          <folding>
-            <marker date="1389631660000" expanded="true" signature="581:613" placeholder="{ ... }" />
-            <marker date="1389631660000" expanded="true" signature="619:664" placeholder="{ ... }" />
-            <marker date="1389631660000" expanded="true" signature="670:706" placeholder="{ ... }" />
-            <marker date="1389631660000" expanded="true" signature="1113:1405" placeholder="do ... end" />
-            <marker date="1389631660000" expanded="true" signature="2030:2053" placeholder="{ ... }" />
-            <marker date="1389631660000" expanded="true" signature="2318:2341" placeholder="{ ... }" />
-            <marker date="1389631660000" expanded="true" signature="2553:2994" placeholder="do ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="49" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="21" selection-start="838" selection-end="838" vertical-scroll-proportion="0.3164557" vertical-offset="330" max-vertical-offset="3075">
@@ -969,13 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140113145122_create_users.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.20188425" vertical-offset="0" max-vertical-offset="743">
@@ -997,9 +945,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="16" selection-start="2167" selection-end="2167" vertical-scroll-proportion="0.0" vertical-offset="764" max-vertical-offset="1935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140113161208_add_index_to_users_email.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.097911224" vertical-offset="0" max-vertical-offset="766">
+        <state line="5" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/boxen/rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/activemodel-3.2.14/lib/active_model/secure_password.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="10" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.06374502" vertical-offset="447" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140113162247_add_password_digest_to_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="474">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="9" selection-start="434" selection-end="434" vertical-scroll-proportion="0.23629242" vertical-offset="29" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="818" selection-end="818" vertical-scroll-proportion="0.48955613" vertical-offset="0" max-vertical-offset="766">
           <folding />
         </state>
       </provider>
