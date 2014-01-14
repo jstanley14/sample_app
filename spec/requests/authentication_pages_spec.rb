@@ -14,8 +14,9 @@ describe "AuthenticationPages" do
       before { sign_in user }
 
       it { should have_selector('title', text: user.name) }
+      it { should have_link('Users', href: users_path) }
       it { should have_link('Profile', href: user_path(user)) }
-      it { should have_link('Settings', href: edit_user_path(user))}
+      it { should have_link('Settings', href: edit_user_path(user)) }
       it { should have_link('Sign Out', href: signout_path) }
       it { should_not have_link('Sign In', href: signin_path) }
     end
@@ -36,6 +37,13 @@ describe "AuthenticationPages" do
   describe "authorization" do
     describe "for non-signed-in users" do
       let(:user) { FactoryGirl.create(:user) }
+
+      describe "in the Users controller" do
+        describe "visiting the user index" do
+          before { visit users_path }
+          it { should have_selector('title', text: 'Sign In') }
+        end
+      end
 
       describe "when attempting to visit a protected page" do
         before do
