@@ -31,10 +31,18 @@ describe User do
   it { should be_valid }
   it { should_not be_admin }
 
+  specify {
+    expect {
+      User.new(admin: true)
+    }.to raise_error(ActiveModel::MassAssignmentSecurity::Error)
+  }
+
   describe "with admin attribute set to 'true'" do
     before { @user.toggle!(:admin) }
 
     it { should be_admin }
+
+
   end
 
   describe "remember token" do
